@@ -1,3 +1,5 @@
+'use strict'
+
 /* Задание 2
 Напишите функцию createCounter, которая создает 
 счетчик и возвращает объект с двумя методами: 
@@ -18,7 +20,7 @@ function createCounter() {
         },
         getValue() {
             return counter;
-        }
+        },
     };
 }
 
